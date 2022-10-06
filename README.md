@@ -1,1 +1,3 @@
 # Notes
+
+Apuntes importantes.
