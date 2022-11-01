@@ -80,14 +80,20 @@ El merge permite unir ramas o la copia del repositorio remoto con tu repositorio
 <br/>
 
 ### **Pull** 
-<img src="./Images/Git/git_pull_icon.svg" width="40">
-Consiste en la unión del fetch y del merge, esto es, recoge la información del repositorio remoto y luego mezcla el trabajo en local con esta.
+
+Consiste en la unión del fetch y del merge, esto es, recoge la información del repositorio remoto y lo mezcla con el trabajo en local.
 
 <br/>
 
 ### **Diff**
 <img src="./Images/Git/git_diff_icon.svg" width="40">
 Se utiliza para mostrar los cambios entre dos versiones del mismo archivo.
+
+<br/>
+
+### **Pull Request**
+<img src="./Images/Git/git_pull_request_icon.svg" width="40">
+Funcionalidad de GitHub conocida tambien como (PR), en la que un colaborador pide que revisen los cambios antes de hacer merge a una rama (master).
 
 <br/>
 
@@ -252,6 +258,9 @@ una vez se hace el git remote se deben bajar los cambios del repositorio remoto 
 
 Para subir los cambios al repositorio remoto ya enlazado se debe ejecutar el comando `git push origin main`.
 
+### **gitignore**
+Es un archivo donde se especifica que archivos van a ser ignorados y no van a subir al repositorio remoto.
+[gitignore](https://git-scm.com/docs/gitignore). Normalmente se descartan archivos binarios, carpeta de compilación y configuraciones que contengan contraseñas.
 
 ### **Tags**
 Permiten asignar una etiqueta o versión a los commits, normalmente se asignan a los que tienen un nivel de importancia significativo.
