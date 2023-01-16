@@ -143,6 +143,19 @@ git config --list                   //Configuraciones hechas
 git config --list --show-origin     //Configuraciones y rutas
 ```
 
+### **git clone [url]**
+Comando para clonar un repositorio remoto en la maquina local.
+
+```
+git clone [http://github.com/Test]
+```
+
+Tambien se puede clonar un repositorio remoto con otro nombre en el local. Para esto se usa el siguiente comando
+
+```
+git clone [http://github.com/Test] [nombre_repo_local]
+```
+
 ### **git status**
 Comando para ver el estado de los archivos, es decir indica que haz agregado al staged o que falta por agregar.
 
@@ -176,10 +189,17 @@ git commit -am "Mensaje del commit" //ejecuta git add + git commit
 ```
 
 ### **git push**
-Comando que envia los archivos a un reposotorio remoto. Se envian los archivos a los que se les hizo commit `git commit`.
+Comando que envia los archivos a un repositorio remoto. Se envian los archivos a los que se les hizo commit `git commit`.
 
 ```
 git push
+```
+
+### **git push -u**
+Si creaste un Branch en el repositorio local y no lo tienes en el repositorio remoto, este comando te ayuda a enviarlo al repositorio remoto. Este comando es la abreviación de `git push --set-upstream origin [nombre-branch]`
+
+```
+git push -u origin [nombre_branch_local]
 ```
 
 ### **git reset**
