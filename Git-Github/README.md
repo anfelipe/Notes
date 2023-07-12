@@ -242,11 +242,13 @@ git log > log.txt   //Guarda los logs en un archivo .txt
 [Atlassian](https://www.atlassian.com/git/tutorials/git-log?msclkid=0f9de9a2c81011eca81ca5418fef3a75) - *Mas usos de `git log`*
 
 ### **git branch**
-Comando para crear una nueva rama de donde estoy parado.
+Comando para manipular el comportamiento de las ramas.
 
 ```
-git branch nombre_rama
-git branch -d   //Borra rama
+git branch nombre_rama //Crea una rama desde donde se está parado.
+git branch -d          //Borra rama
+git branch             //Lista las ramas locales
+git branch -r          //Lista las ramas remotas
 ```
 
 ### **git checkout**
